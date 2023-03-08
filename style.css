@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(41, 41, 71);
+}
+
+.state {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.state h1 {
+    font-family: 'Russo One', sans-serif;
+    color: white;
+    width: 300px;
+    text-align: center;
+    font-size: 3rem;
+    line-height: 2.7rem;
+    margin-top: 70px;
+    background-color: rgb(26, 26, 46);
+    padding: 20px;
+}
+
+.state div {
+    font-family: 'Russo One', sans-serif;
+    color: rgb(104, 104, 160);
+    text-align: center;
+    margin-top: 35px;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 20px;
+    background-color: rgb(26, 26, 46);
+}
+
+.state div:hover {
+    color: rgb(140, 140, 215); 
+}
+
+article {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+#screen {
+    background-color: rgb(26, 26, 46);
+}
+
+.scoring {
+    background-color: rgb(26, 26, 46);
+    color: rgb(104, 104, 160);
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+    padding: 20px;
+    margin-top: 100px;
+    width: 100px;
+}
+
+.scoring h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.scoring p {
+    margin: 0;
+}

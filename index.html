@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bounce Square Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+</head>
+
+<body id="body">
+    <article>
+        <div class="scoring">
+            <h1 id="score">0000</h1>
+            <p>SCORE</p>
+        </div>
+        <canvas id="screen" width="400px" height="550px"></canvas>
+        <div class="scoring">
+            <h1 id="highscore">0000</h1>
+            <p>HIGHSCORE</p>
+        </div>
+    </article>
+    <div id="homescreen" class="state">
+        <h1 id="title">BOUNCE SQUARE</h1>
+        <div id="play" onclick='game.play()'>PLAY</div>
+    </div>
+    <div id="gameoverscreen" class="state">
+        <h1 id="title">GAME OVER</h1>
+        <div id="restart" onclick='game.restart()'>RESTART</div>
+    </div>
+    <script defer src="script.js"></script>
+</body>
+
+</html>
